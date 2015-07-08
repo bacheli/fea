@@ -1,0 +1,91 @@
+body{
+  background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #FFFFFF;
+  
+}
+.separator{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center left;
+  height: 30px;
+  width: 100%;
+}
+.jumbotron{
+  background-image: url(../img/unprg.jpg);
+  background-position: center center;
+  background-size: contain;
+  line-height:15 15;
+  color: #FF0000!important;
+}
+.galeria{
+  border: 10px solid #4B5CAF;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+.galeria img{
+  height: 500px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.carousel-indicators li{
+  background: #000;
+}
+.carousel-control.left,
+.carousel-control.right{
+  background: none;
+}
+.carousel-indicators .active{
+  background: #4B5CAF;
+}
+.carousel-indicators{
+  bottom: -15px;
+}
+/*}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+  border: none;
+}*/
+table {
+   width: 65%;
+   border: 1px solid #000;
+   text-align:center
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 3px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+caption {
+   padding: 0.3em;
+   color: #fff;
+    background: #6A5ACD;
+  font-weight : bold;
+}
+th {
+   background: #B0C4DE;
+}
+
+.odd th, .odd td {
+   background: #ABD4F3;
+}
+h1
+{
+color:#0080C0;
+text-align: center;
+}
+h2
+{
+color:#0000FF;
+
+}
+.color{
+  color: #000000;
+}
+
